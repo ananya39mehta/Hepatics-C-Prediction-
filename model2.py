@@ -3,7 +3,7 @@ import pandas as pd
 import joblib
 import altair as alt
 
-model = joblib.load(r"C:\Users\91913\Downloads\Hepatics-C-Pred.-Model-main\Hepatics-C-Pred.-Model-main\Random Forest.pkl")
+model = joblib.load(r"https://github.com/ananya39mehta/Hepatics-C-Prediction-/blob/main/Random%20Forest.pkl")
 
 # Set page title and favicon
 st.set_page_config(page_title="Hepatitis C Prediction", page_icon=":microbe:")
