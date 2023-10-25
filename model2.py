@@ -3,7 +3,7 @@ import pandas as pd
 import joblib
 import altair as alt
 
-model = joblib.load(r"Random Forest.pkl",'rb')
+model = joblib.load("Random Forest.pkl")
 
 # Set page title and favicon
 st.set_page_config(page_title="Hepatitis C Prediction", page_icon=":microbe:")
